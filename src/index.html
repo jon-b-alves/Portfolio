@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="filter transition duration-500">
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-white flex items-center justify-center min-h-screen">
-  <main class="bg-gray-100 w-1/3 h-screen font-serif">
+  <main class="w-1/3 h-screen font-serif">
 
     <header class="my-3">
       <h1 class="text-3xl font-bold text-center">Jonathan Alves</h1>
@@ -73,8 +73,11 @@
           class="underline hover:text-blue-500">Downloads Cleaner</a>
         <p>Removes all content inside your Windows download directory.</p>
       </article>
-
     </section>
+
+    <button onclick="document.documentElement.classList.toggle('invert')" class="">
+      Toggle Invert
+    </button>
 
   </main>
 </body>
